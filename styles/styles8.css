@@ -1,0 +1,45 @@
+/* styles.css */
+
+.nav-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 2;
+    z-index: 10;
+}
+
+.menu-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-list li a {
+    color: black;
+    text-decoration: none;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+.menu-list li a:hover {
+    background-color: blue;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 5px;
+    right: 1200px;
+    background-color:white;
+    color: black;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100;
+}

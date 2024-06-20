@@ -1,0 +1,9 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const toggleButton = document.getElementById('toggleMenu');
+  const header = document.getElementById('mainHeader');
+
+  toggleButton.addEventListener('click', function () {
+    header.classList.toggle('active');
+    this.classList.toggle('active');
+  });
+});

@@ -1,0 +1,91 @@
+/* Estilos CSS mejorados con marcos y colores */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.modelo {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.modelo-img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+/* Estilos CSS con efecto de transición al pasar el cursor sobre las imágenes */
+.modelo-img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.modelo-img:hover {
+    transform: scale(1.05);
+}

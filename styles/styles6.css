@@ -1,0 +1,48 @@
+/* Estilos para el formulario de contacto */
+#contacto {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#contacto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contacto p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* para que el padding no afecte el ancho */
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
